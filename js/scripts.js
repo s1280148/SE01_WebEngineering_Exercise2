@@ -1,0 +1,18 @@
+/*!
+* Start Bootstrap - Business Frontpage v5.0.8 (https://startbootstrap.com/template/business-frontpage)
+* Copyright 2013-2022 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/master/LICENSE)
+*/
+// This file is intentionally blank
+// Use this file to add JavaScript to your project
+$(function() {
+    $(".nav-item").hover(
+        function() {
+            $(this).addClass("active");
+        },
+        function() {
+            $(this).removeClass("active");
+        }
+    );
+
+});
